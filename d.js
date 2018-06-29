@@ -23,7 +23,7 @@ const getRandomFrogPair = () => {
   const maleFrogs = [a, b].filter(frog => frog.sex === 'm');
   randomArrayElement(maleFrogs).croaked = true;
 
-  // Peak and find out which frog croaked.
+  // Peek and find out which frog croaked.
   if (a.croaked) {
     // Okay, now we know that frog A croaked. So what?
   } else {

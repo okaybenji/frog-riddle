@@ -20,7 +20,7 @@ const getRandomFrogPair = () => {
     randomArrayElement(maleFrogs).croaked = true;
   }
 
-  // Peak and find out which frog croaked.
+  // Peek and find out which frog croaked.
   if (a.croaked) {
     // Okay, now we know that frog A croaked. So what?
   } else {
