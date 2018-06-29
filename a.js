@@ -5,7 +5,7 @@ const getRandomFrog = () => Math.random() > 0.5 ? 'm' : 'f';
 const getRandomFrogPair = () => getRandomFrog() + getRandomFrog();
 
 // Get a million pairs.
-const population = [...Array(1000000)].map(() => getRandomFrogPair());
+const population = [...Array(1000000)].map(getRandomFrogPair);
 
 // Calculate the distribution.
 const result = population.reduce((res, pair) => {
